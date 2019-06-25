@@ -43,8 +43,6 @@ def filtrarPalabras(myList,n):
             contador += 1
             listapalabras.append(palabra)
     return contador, listapalabras
-
-
 n = input("escribir letra: ")
 print(filtrarPalabras(myList,n))
 
